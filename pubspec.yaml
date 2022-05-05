@@ -1,0 +1,24 @@
+name: pt_flutter_architecture
+description: Clean Architecture with RxDart & MVVM & GetX
+version: 1.0.0+2
+homepage: https://github.com/tienpx-x/pt_flutter_architecture
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  quiver:
+  rxdart:
+  get:
+  dio:
+  flutter_screenutil:
+  pt_flutter_object_mapper:
+    git:
+      url: https://github.com/tien-px/pt_flutter_object_mapper
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.17.12

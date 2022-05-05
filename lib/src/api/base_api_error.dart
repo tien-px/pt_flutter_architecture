@@ -1,0 +1,3 @@
+class ApiException implements Exception {
+
+}
